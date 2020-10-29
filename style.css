@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{
+    width:100%;
+    height: 900px;
+    background-image: url("https://images.unsplash.com/photo-1584204559709-ca7d413229eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.nav{
+    color:#FFF;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2em;
+}
+
+.nav1 li{
+    list-style: none;
+}
+
+.sub-nav{
+    display:flex;
+}
+
+.nav1 ul a{
+    color:#FFF;
+    text-decoration: none;
+    padding-left: 2em;
+}
+
+
+
+.nav2 a{
+    color:#FFF;
+    text-decoration: none;
+    padding:2em;
+}
+
+
+.box{
+    color:#FFF;
+    font-size: 1.2em;
+}
+
+.box span{
+    color:red;
+}
+
+.small-box{
+    width:500px;
+    position:relative;
+    top:200px;
+    margin:30px;
+}
+
+.small-box a{
+    background-color: #FFF;
+    color:black;
+    padding:10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.middle-container{
+    background-color:lightblue;
+    display:flex;
+    padding:10px 65px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.middle-container img{
+    width:33%;
+}
+
+.pcl{
+border-radius:10px;
+}
+
+.bottom-container{
+    padding:100px;
+    background-color: black;
+    color:#FFF;
+    display:flex;
+    justify-content: space-between;
+}
+
+.bottom-container img{
+    border-radius: 10px;
+}
+
+.second{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.footer{
+    width:100%;
+    height: 300px;
+    background-color: darkgray;
+}
+
+.second-nav{
+    background-color: black;
+    color:#FFF;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px;
+}
+
+.second-nav a{
+    color:#FFF;
+    border-radius: 10px;
+    border:solid white 0.1em;
+    padding:10px;
+    text-decoration: none;
+    font-size: small;
+}
+
+footer{
+    padding:25px;
+    text-align: center;
+}
+
+.first img{
+    width:90%;
+}
+
+.second img{
+    width:80%;
+}
+
+.third img{
+    width:100%;
+}
+
